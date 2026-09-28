@@ -10,6 +10,8 @@ Escaneas el código de barras con el celular y suma una entrada, resta una venta
 
 **Pruébalo en vivo:** [bruno-portfolio-azure.vercel.app/proyectos/inventario](https://bruno-portfolio-azure.vercel.app/proyectos/inventario)
 
+**App Android nativa:** en desarrollo. Escaneará códigos con la cámara del teléfono (CameraX) y guardará el inventario sin conexión.
+
 ## Cómo funciona
 
 1. **Escanea.** Con la cámara, con una foto del código o escribiéndolo. Si el código no existe, lo das de alta ahí mismo.
@@ -45,11 +47,6 @@ npm run build   # tipos + build de producción
 ```
 
 Hecho con React 19, TypeScript y Vite. Necesita Node 22 o más nuevo (las pruebas corren TypeScript directo con Node).
-
-## Lo que sigue
-
-- Sincronizar dos celulares de la misma tienda.
-- Importar el catálogo del proveedor desde Excel.
 
 ---
 

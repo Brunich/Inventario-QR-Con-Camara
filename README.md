@@ -21,7 +21,7 @@ Escaneas el código de barras con el celular y suma una entrada, resta una venta
 | Archivo | Qué hace |
 | --- | --- |
 | `src/inventario-logic.ts` | EAN-13: dígito verificador, validación, barras y etiqueta en SVG; y la lista de lo que está bajo el mínimo. |
-| `src/Inventario.tsx` | Cámara (ZXing), modos entrada / venta / conteo, alta de productos nuevos, etiquetas para imprimir y pedido por WhatsApp. |
+| `src/Inventario.tsx` | Cámara (ZXing) con EAN-13, EAN-8, UPC-A y códigos internos; modos entrada / venta / conteo, búsqueda, historial por producto, etiquetas para imprimir y pedido por WhatsApp. |
 
 La lógica está separada de la interfaz, así se prueba sin navegador (`tests/`).
 

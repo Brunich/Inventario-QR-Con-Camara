@@ -1,6 +1,6 @@
 # Inventario con la cámara
 
-[![CI](https://github.com/Brunich/inventario-camara/actions/workflows/ci.yml/badge.svg)](https://github.com/Brunich/inventario-camara/actions/workflows/ci.yml)
+[![CI](https://github.com/Brunich/Inventario-QR-Con-Camara/actions/workflows/ci.yml/badge.svg)](https://github.com/Brunich/Inventario-QR-Con-Camara/actions/workflows/ci.yml)
 
 *La cámara del celular como lector de códigos.*
 
@@ -47,6 +47,10 @@ npm run build   # tipos + build de producción
 ```
 
 Hecho con React 19, TypeScript y Vite. Necesita Node 22 o más nuevo (las pruebas corren TypeScript directo con Node).
+
+## Licencia
+
+[MIT](LICENSE). Úsalo, cámbialo y compártelo; sólo conserva el aviso de copyright.
 
 ---
 
